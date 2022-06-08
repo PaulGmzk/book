@@ -1,0 +1,44 @@
+
+.wrapper {
+  width: 100 %;
+  display: flex;
+  justify-content: left;
+  padding: 30px;
+}
+.wrapper-content {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  padding: 5px;
+  margin:5px, 0;
+}
+.button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px 0;
+}
+button{
+  width: 70px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid lightgrey;
+}
+
+th {
+  min-width: 100px;
+  border: 5px solid lightgrey;
+  text-align: left;
+  padding: 10px;
+  background-color: rgb(147, 187, 111);
+}
